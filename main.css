@@ -1,0 +1,148 @@
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.atm_Img-cover {
+	overflow: hidden;
+	padding-top: 56.25%;
+	position: relative;
+	display: block;
+}
+
+.atm_Img-cover .Img-conver__img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.loaded {
+    /*max-width: 100%;*/
+    width: 100%;
+	display: block;	
+}
+
+img {
+	-webkit-border-radius: 0 0 50px 50px;
+	        border-radius: 0 0 50px 50px;
+}
+
+.box-left,
+.box-right {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 100vh;
+	background-color: rgba(205, 133, 63, 0.32);
+	color: #fff;
+}
+
+h3 {
+	margin: auto;
+}
+
+.mol-bl_Cuponidad .Cuponidad__logo {
+    display: block;
+    margin: auto;
+    background-image: url(./logo-cuponidad-medios.png);
+    background-repeat: no-repeat;
+    width: 184px;
+    height: 44px;
+    text-indent: -9999px;
+}
+
+.Cuponidad__title {
+	display: table-cell;
+	vertical-align: middle;
+	width: -webkit-calc(100%-135px);
+	width: calc(100%-135px);
+}
+
+.Cuponidad__btn {
+	width: 135px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.Cuponidad__comment {
+	padding-top: 18px;
+	width: 118px;
+	height: 118px;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	background-color: #F51214;
+	text-align: center;
+	color: #fff;
+}
+
+.Cuponidad__price,
+.Cuponidad__text-price span{
+	width: 100%;
+	display: inline-block;
+}
+
+.Cuponidad__price {
+	position: relative;
+}
+
+.Cuponidad__price:before {
+	content: "";
+	width: 0;
+	height: 0;
+	border-width: 25px 0 0 31px;
+	border-color: transparent transparent transparent #F51214;
+	border-style: solid;
+	-webkit-transform: rotate(119deg);
+	    -ms-transform: rotate(119deg);
+	        transform: rotate(119deg);
+	position: absolute;
+	top: 47px;
+	left: 12px;	
+}
+
+.wrapper__text {
+	background-color: #FF8300;
+}
+
+.Cuponidad__body {
+	background-color: #FF8300;
+}
+
+.Cuponidad__figure {
+	-webkit-border-radius: 0 0 50px 50px;
+	        border-radius: 0 0 50px 50px;
+}
+
+.Cuponidad__title {
+	font-size: 1rem;
+	padding: 1.7rem 0 0 2.7rem;
+	color: #fff;
+}
+
+.Cuponidad__title small {
+	display: block;
+	margin-top: 17px;
+	margin-bottom: 8px;
+}
+
+.Cuponidad__see {
+	display: block;
+	text-align: center;
+	color: #fff;
+	font-size: 1.5rem;
+    padding: 0.5rem;
+    background: #F51214;
+}
